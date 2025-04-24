@@ -18,8 +18,10 @@ section {
     padding: 2rem;
     background-color: rgb(216, 255, 252);
     border-radius: 12px;
-    margin: 2rem;
+    margin: 0 auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    max-width: 1200px; 
+
 }
 
 h1 {
