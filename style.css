@@ -14,14 +14,17 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  color: #2f4f4f;
 }
 
 h3 {
   font-size: 1.25rem;
+  color: #2f4f4f;
 }
 
 p {
   font-size: 1.25rem;
+  color: #2f4f4f;
 }
 
 .contact-info {
@@ -118,12 +121,6 @@ section {
 }
 
 /* logo stuff */
-.resume-logo {
-  padding: 0rem 0.5rem;
-  width: 60px;
-  height: 60px;
-  transition: transform 0.5s ease;
-}
 
 .logo {
   padding: 0rem 0rem;
@@ -132,17 +129,13 @@ section {
   transition: transform 0.5s ease;
 }
 
-.resume-logo:hover {
-  transform: scale(1.2);
-}
-
 .logo:hover {
   transform: scale(1.2);
 }
 
 /* cool effect stuff for things other than logos */
 .body-sections:hover, .button-section:hover, .intro-section:hover, .profile-pic:hover {
-  box-shadow: 0 16px 32px rgb(3, 57, 255, 0.25);
+  box-shadow: 0 16px 32px rgba(54, 54, 54, 0.15);
 }
 
 /* smaller screen stuff */
