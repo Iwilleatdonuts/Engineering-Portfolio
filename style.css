@@ -22,6 +22,11 @@ h3 {
   color: #2f4f4f;
 }
 
+h4 {
+  font-size: 2rem;
+  color: #2f4f4f;
+}
+
 p {
   font-size: 1.25rem;
   color: #2f4f4f;
@@ -47,25 +52,33 @@ header {
 }
 
 .intro-container {
-  max-width: 1200px;
+  max-width: 1465px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
-  padding: 2rem;
+  padding: 3rem 0rem;
 
   flex-wrap: nowrap;
 }
 
 .intro-section {
   transition: box-shadow 0.3s ease;
+  padding: 2rem;
+  background-color: rgb(243, 255, 254);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.body-container {
+  padding: 1rem;
 }
 
 .body-headers {
@@ -79,13 +92,8 @@ header {
   padding: 2rem;
   margin-bottom: 40px;
   transition: box-shadow 0.3s ease;
-}
-
-section {
-  padding: 2rem;
   background-color: rgb(243, 255, 254);
   border-radius: 12px;
-  margin: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
@@ -94,7 +102,7 @@ section {
   background-color: rgb(243, 255, 254);
   border-radius: 12px;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   transition: box-shadow 0.3s ease;
 }
@@ -105,6 +113,37 @@ section {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.outro-section {
+  background-color: rgb(243, 255, 254);
+  padding: 10rem 1rem;
+  margin-top: 3rem;
+}
+
+.outro-container {
+  max-width: 1465px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.outro-container h2 {
+  font-size: 2rem;
+  color: #2f4f4f;
+  margin: 0;
+}
+
+.read-more-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #9bcde4, #c4ece8);
+  color: #2f4f4f;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.5s ease;
 }
 
 /* imijis */
@@ -136,6 +175,11 @@ section {
 /* cool effect stuff for things other than logos */
 .body-sections:hover, .button-section:hover, .intro-section:hover, .profile-pic:hover {
   box-shadow: 0 16px 32px rgba(54, 54, 54, 0.15);
+}
+
+.read-more-button:hover {
+  background: linear-gradient(to right, #aee6ff, #d9f6f3);
+  transform: translateY(-2px);
 }
 
 /* smaller screen stuff */
